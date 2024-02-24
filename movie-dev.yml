@@ -1,0 +1,18 @@
+server:
+  port: 9002
+spring:
+  application:
+    name: microservice-movie
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:  #客戶端註冊地址
+      defaultZone: http://127.0.0.1:8888/eureka
+  instance:
+    prefer-ip-address: true  #優先使用該服務的IP地址註冊到eureka
+    #修改Ribbon 負載均衡算法
+#microservice-user:
+#  ribbon:
+
+
