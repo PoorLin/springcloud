@@ -11,7 +11,7 @@ spring:
     sampler:
       probability: 1 #頻率
   datasource:
-    url: jdbc:mysql://172.20.10.5:3306/spring_cloud?characterEncoding=UTF8
+    url: jdbc:mysql://172.20.10.5:3306/spring_cloud1?characterEncoding=UTF8
     driver-class-name: com.mysql.cj.jdbc.Driver
     username: root
     password: 123456
