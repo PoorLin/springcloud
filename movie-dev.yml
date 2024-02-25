@@ -1,5 +1,5 @@
 server:
-  port: 9002
+  port: 9001
 spring:
   application:
     name: microservice-movie
@@ -21,5 +21,7 @@ eureka:
     #修改Ribbon 負載均衡算法
 #microservice-user:
 #  ribbon:
+custom:
+  myValue: "123"
 
 
