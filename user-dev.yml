@@ -3,6 +3,13 @@ server:
 spring:
   application:
     name: microservice-user
+  zipkin:
+    base-url: http://127.0.0.1:9041
+    sender:
+      type: web
+  sleuth:
+    sampler:
+      probability: 1 #頻率
   datasource:
     url: jdbc:mysql://172.20.10.5:3306/spring_cloud?characterEncoding=UTF8
     driver-class-name: com.mysql.cj.jdbc.Driver
